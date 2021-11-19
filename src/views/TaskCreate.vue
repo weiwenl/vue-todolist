@@ -1,7 +1,5 @@
 <template>
-  <b-container>
-    <router-view />
-  </b-container>
+  <h2>Create New Task</h2>
 </template>
 
 <script>
