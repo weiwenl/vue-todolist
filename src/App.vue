@@ -1,11 +1,16 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <ToDoListContainer />
+  </div>
 </template>
 
 <script>
+import ToDoListContainer from "@/components/ToDoListContainer.vue";
 export default {
   name: "App",
-  components: {},
+  components: {
+    ToDoListContainer,
+  },
 };
 </script>
 
